@@ -1,0 +1,31 @@
+version = 1
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "8"
+
+[[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/prabhur24/system-design-101"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "terraform"
